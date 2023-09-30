@@ -21,8 +21,6 @@ public class ApiProviderModule extends AbstractModule {
 
   @Override
   protected void configure() {
-    System.out.println("api-PROVIDER");
-    //    DynamicItem.bind(binder(), GreetingsService.class).to(DefaultGreetingsService.class);
     bind(GreetingsService.class).to(DefaultGreetingsService.class);
   }
 }
