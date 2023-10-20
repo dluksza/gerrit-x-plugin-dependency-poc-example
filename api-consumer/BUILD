@@ -13,5 +13,5 @@ gerrit_plugin(
 java_library(
     name = "api-provider-neverlink",
     neverlink = 1,
-    exports = ["//plugins/api-provider:api-provider.api"],
+    exports = ["//plugins/api-provider"],
 )
